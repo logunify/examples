@@ -1,0 +1,6 @@
+framework module LogUnify {
+  umbrella header "LogUnify-umbrella.h"
+
+  export *
+  module * { export * }
+}

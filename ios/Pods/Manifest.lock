@@ -1,0 +1,61 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - iOSSnapshotTestCase (8.0.0):
+    - iOSSnapshotTestCase/SwiftSupport (= 8.0.0)
+  - iOSSnapshotTestCase/Core (8.0.0)
+  - iOSSnapshotTestCase/SwiftSupport (8.0.0):
+    - iOSSnapshotTestCase/Core
+  - LogUnify (0.1.4):
+    - ReachabilitySwift (~> 5.0.0)
+    - SQLite.swift (~> 0.14.1)
+    - SwiftProtobuf (~> 1.0)
+  - Nimble (10.0.0)
+  - Nimble-Snapshots (9.4.0):
+    - Nimble-Snapshots/Core (= 9.4.0)
+  - Nimble-Snapshots/Core (9.4.0):
+    - iOSSnapshotTestCase (~> 8.0)
+    - Nimble
+  - Quick (2.2.1)
+  - ReachabilitySwift (5.0.0)
+  - SQLite.swift (0.14.1):
+    - SQLite.swift/standard (= 0.14.1)
+  - SQLite.swift/standard (0.14.1)
+  - SwiftProtobuf (1.21.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - LogUnify (~> 0.1.4)
+  - Nimble (~> 10.0.0)
+  - Nimble-Snapshots (~> 9.4.0)
+  - Quick (~> 2.2.0)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - iOSSnapshotTestCase
+    - LogUnify
+    - Nimble
+    - Nimble-Snapshots
+    - Quick
+    - ReachabilitySwift
+    - SQLite.swift
+    - SwiftProtobuf
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  iOSSnapshotTestCase: a670511f9ee3829c2b9c23e6e68f315fd7b6790f
+  LogUnify: e231280c7f213215b1bdb096a57d2269831eda29
+  Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
+  Nimble-Snapshots: ef281b908c604f78c8313587e25ea92c8ab513d7
+  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SQLite.swift: 2992550ebf3c5b268bf4352603e3df87d2a4ed72
+  SwiftProtobuf: afced68785854575756db965e9da52bbf3dc45e7
+
+PODFILE CHECKSUM: 35ac6cc254d990974205c470d2871952539f9d8e
+
+COCOAPODS: 1.11.3
